@@ -1,0 +1,288 @@
+nav {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-top-color: black;
+    border-top-style: solid;
+    display: inline-block;
+}
+
+.menu {
+    width: 800px;
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.name {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50px;
+    padding: 20px;
+    line-height: 55px;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 15px;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.button {
+    padding:0px 15px;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: darkslategrey;
+}
+.button:hover{
+    background-color: black;
+    border-color: #b3f5cc;
+    color: white;
+    border-width: 20px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: darkslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+    max-width: 960px;
+    margin-left:280px;
+    margin-bottom: auto;
+    position: relative;
+    min-height: 739px;
+}
+
+.about {
+    width: 650px;
+    background-color: white;
+    border-style: solid;
+    border-color: #444;
+    border-width: thin;
+    margin-bottom: 15px;
+    float: left;
+    position: relative;
+}
+
+h1 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    display: block;
+}
+
+p {
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 1.5em;
+    display: block;
+}
+
+.profile {
+    padding-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    height: 40px;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 6px;
+    border-top-style: solid;
+    border-top-color: darkslategray;
+    display: block;
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
+    display: block;
+    margin: 10px;
+}
+
+.contact {
+    width: 650px;
+    background-color: white;
+    border-style: solid;
+    border-color: #444;
+    border-width: thin;
+    margin-bottom: 15px;
+    float: left;
+    position: relative;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    border: solid;
+    border-width: 1px;
+    border-color: #444;
+    padding: 10px;
+    width: 90%;
+}
+
+textarea{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    border: solid;
+    border-width: 1px;
+    border-color: #444;
+    padding: 10px;
+    width: 90%;
+}
+
+.submit{
+    font-size: 15px;
+    color: #444;
+    padding: 10px 0px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.content {
+    max-width: 960px;
+    margin-left:280px;
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 500px;
+}
+    
+.portfolio {
+    width: 780px;
+    float: auto;
+    position: relative;
+    border-style: solid;
+    border-width: thin;
+    border-color: #444;
+    background-color: white;
+}
+
+figure {
+    position: relative;
+    margin: 0px;
+    display: inline;
+}
+
+.portfolio figure img{
+    margin: 15px  15px 15px 20px;
+}
+
+figcaption.caption {
+    color: white;
+    background-color:#444;
+    font-size: 16px;
+    display: inline;
+    position: absolute;
+    top: 46%;
+    left: 14%;
+    padding: 5px 50px;
+    z-index: 5;
+}
+
+figcaption.caption2 {
+    color: white;
+    background-color: #444444;
+    font-size: 16px;
+    display: inline;
+    position: absolute;
+    top: 46%;
+    left: 65%;
+    padding: 5px 50px;
+    z-index: 5;
+}
+
+figcaption.caption3 {
+    color: white;
+    background-color: #444444;
+    font-size: 16px;
+    display: inline;
+    position: absolute;
+    top: 90%;
+    left: 14%;
+    padding: 5px 50px;
+    z-index: 5;
+}
+
+figcaption.caption4 {
+    color: white;
+    background-color: #444444;
+    font-size: 16px;
+    display: inline;
+    position: absolute;
+    top: 90%;
+    left:60%;
+    padding: 5px 50px;
+    z-index: 5;
+}
+
+@media screen and (max-width: 980px){
+    .index{
+        max-width: 100%;
+        width: 100%;
+    }
+    .menu, .name, .content{
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .index{
+        max-width: 100%;
+        width: 100%;
+    }
+    .menu, .name, .content, .about, .contact, .portfolio{
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    .index{
+        max-width: 100%;
+        width: 100%;
+    }
+    .menu, .name, .content, .about, .contact, .portfolio{
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
+
+    
